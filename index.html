@@ -1,65 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Simple Site</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-    header {
-      background: #333;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-    main {
-      padding: 1rem;
-    }
-    footer {
-      background: #333;
-      color: #fff;
-      text-align: center;
-      padding: 0.5rem;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-    @media (max-width: 600px) {
-      nav {
-        display: block;
-      }
-      nav a {
-        display: block;
-        margin: 5px 0;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bristol Youth Voice Network</title>
+    style.css
 </head>
 <body>
-  <header>
-    <h1>My Website</h1>
+
+    <header>
+        <div class="container">
+            <h1>Bristol Youth Voice Network</h1>
+            <p>Empowering young people to shape services and influence change.</p>
+            #about
+        </div>
+    </header>
+
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+        <div class="container">
+            <ul>
+                <li>#about</li>
+                <li>#projects</li>
+                <li>#events</li>
+                <li>#contact</li>
+            </ul>
+        </div>
     </nav>
-  </header>
-  <main>
-    <h2>Welcome!</h2>
-    <p>This is a simple, responsive website you can host on GitHub Pages.</p>
-  </main>
-  <footer>
-    <p>&copy; 2026 My Website</p>
-  </footer>
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>
+            Bristol Youth Voice Network supports young people to have their voices
+            heard and play an active role in shaping services and opportunities.
+        </p>
+    </section>
+
+    <section id="projects" class="container cards">
+        <div class="card">
+            <h3>Youth Voice</h3>
+            <p>Supporting youth participation across Bristol.</p>
+        </div>
+
+        <div class="card">
+            <h3>Research</h3>
+            <p>Helping decision makers understand young people's experiences.</p>
+        </div>
+
+        <div class="card">
+            <h3>Leadership</h3>
+            <p>Developing future community leaders.</p>
+        </div>
+    </section>
+
+    <section id="events" class="container">
+        <h2>Upcoming Events</h2>
+        <p>Stay informed about workshops, meetings and consultations.</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Email: info@bristolyouthvoice.org</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Bristol Youth Voice Network</p>
+    </footer>
+
 </body>
 </html>
