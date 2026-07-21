@@ -104,6 +104,16 @@ footer {
     padding: 20px;
 }
 
+.responsive-list {
+    padding-left: 2rem;
+    margin: 1rem 0;
+}
+
+.responsive-list li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
 
