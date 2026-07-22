@@ -63,8 +63,8 @@ nav {
 }
 
 .hero {
-    background: red;
-    min-height: 50px;
+    background-image: url('../images/header.png');
+    min-height: 500px;
 }
 
 .hero h1 {
