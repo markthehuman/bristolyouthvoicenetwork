@@ -51,6 +51,13 @@ nav {
     font-weight: 500;
 }
 
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    color: #545454;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
 img.responsive {
     display: block;
     height:auto;
