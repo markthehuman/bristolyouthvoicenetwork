@@ -42,15 +42,16 @@ nav {
 }
 
 .nav-links li {
-    margin-left: 25px;
+    margin-left: 0px;
 }
 
 .nav-links a {
     font-family: 'Montserrat', sans-serif;
     display: inline-block;
     background:#0cc0df;
+    text-align: center;
     color: black;
-    padding: 12px 24px;
+    padding: 12px 12px;
     text-decoration: none;
     font-weight: bold;
     transition: all 0.3s ease;
