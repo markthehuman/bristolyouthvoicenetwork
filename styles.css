@@ -11,6 +11,19 @@ body {
    /* background: #f5f7fa; */
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero {
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+
 .container {
     width: 90%;
     max-width: 1200px;
