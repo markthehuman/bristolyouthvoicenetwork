@@ -37,10 +37,9 @@ header p {
 
 .btn {
     display: inline-block;
-    background: white;
-    color: #0066cc;
+    background: #005a9c
+    color: white;
     padding: 12px 25px;
-    border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
 }
