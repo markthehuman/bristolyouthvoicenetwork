@@ -79,8 +79,18 @@ nav {
 }
 
 img.responsive {
-  max-width:100%; 
-  height:auto; 
+  background-size: cover;
+    background-position: center;
+
+    height: 50vh;       /* 50% of screen height */
+    min-height: 250px;  /* Don't get too small */
+    max-height: 600px;  /* Don't get too large */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .btn {
