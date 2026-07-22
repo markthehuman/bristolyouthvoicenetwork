@@ -93,6 +93,14 @@ footer {
     cursor: pointer;
 }
 
+h2 {
+    text-transform: uppercase;
+    color: #545454;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
 
     .menu-toggle {
