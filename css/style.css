@@ -83,6 +83,11 @@ nav {
     margin-bottom: 20px;
 }
 
+img.responsive {
+  max-width:100%; 
+  height:auto; 
+}
+
 .btn {
     display: inline-block;
     background: white;
