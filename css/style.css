@@ -79,22 +79,14 @@ nav {
 }
 
 img.responsive {
-  background-size: cover;
-    background-position: center;
-
-    height: 50vh;       /* 50% of screen height */
-    min-height: 250px;  /* Don't get too small */
-    max-height: 600px;  /* Don't get too large */
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+    display: block;
+    height:auto;
+    max-width: 100%
+    margin: 0 auto;
 }
 
 .btn {
-    display: block;
+    display: inline-block;
     background: #0cc0df;
     color: white;
     padding: 12px 24px;
