@@ -80,8 +80,8 @@ img.responsive {
 
 .btn {
     display: inline-block;
-    background: #0cc0df;
-    color: white;
+    background: white;
+    color: #0cc0df;
     padding: 12px 24px;
     text-decoration: none;
     font-weight: bold;
@@ -130,7 +130,8 @@ h2 {
         display: none;
         flex-direction: column;
         width: 100%;
-        background: #003366;
+        background: white;
+        color: #0cc0df;
         padding: 20px 0;
     }
 
