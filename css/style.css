@@ -51,7 +51,7 @@ nav {
     justify-content: center;
     align-items: center;
 
-    width: 150px;
+    width: 120px;
     height: 45px;
 
     background: #0cc0df;
@@ -139,8 +139,8 @@ h2 {
         display: none;
         flex-direction: column;
         width: 100%;
-        background: white;
-        color: #0cc0df;
+        background: #0cc0df;
+        color: black;
 
     }
 
