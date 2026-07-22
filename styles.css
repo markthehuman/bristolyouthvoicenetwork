@@ -20,8 +20,35 @@ img {
     background-image: url("images/header.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+
     min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
 }
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+
 
 
 .container {
@@ -168,5 +195,22 @@ footer {
     nav a {
         text-align: center;
         border-top: 1px solid rgba(255,255,255,0.1);
+
+
+        @media (max-width: 768px) {
+    .hero {
+        min-height: 300px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+}
+
     }
 }
