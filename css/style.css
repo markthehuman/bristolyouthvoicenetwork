@@ -47,13 +47,14 @@ nav {
 
 .nav-links a {
     color: white;
-    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    letter-spacing: 2px;
 }
 
 .logo {
+    color: white;
     font-family: 'Montserrat', sans-serif;
-    color: #545454;
     font-weight: 500;
     letter-spacing: 2px;
 }
