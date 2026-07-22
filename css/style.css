@@ -63,10 +63,22 @@ nav {
 }
 
 .hero {
-    background: linear-gradient(135deg, #0066cc, #00b4d8);
-    color: white;
+    background-image: url('images/header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
-    padding: 100px 20px;
+    color: white;
+
+    position: relative;
 }
 
 .hero h1 {
