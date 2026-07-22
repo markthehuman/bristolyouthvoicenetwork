@@ -63,22 +63,8 @@ nav {
 }
 
 .hero {
-    background-image: url('../images/header.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    background: red;
     min-height: 500px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-    color: white;
-
-    position: relative;
 }
 
 .hero h1 {
