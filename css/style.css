@@ -63,8 +63,21 @@ nav {
 }
 
 .hero {
-    background-image: url('../images/header.png');
-    min-height: 500px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+
+    height: 50vh;       /* 50% of screen height */
+    min-height: 250px;  /* Don't get too small */
+    max-height: 600px;  /* Don't get too large */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: white;
+    text-align: center;
 }
 
 .hero h1 {
@@ -119,8 +132,9 @@ footer {
         display: block;
     }
 
-.logo img {
-        height: 45px;
+    .hero {
+        height: 35vh;
+        min-height: 200px;
     }
     
     .nav-links {
