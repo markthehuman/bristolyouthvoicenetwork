@@ -49,6 +49,32 @@ header p {
     background: #f0f0f0;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #003366;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #005a9c;
+}
+
 nav {
     background: #003366;
 }
