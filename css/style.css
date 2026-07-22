@@ -36,17 +36,6 @@ nav {
     color: #00b4d8;
 }
 
-.logo {
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-
-.logo img {
-    height: 60px;
-    width: auto;
-    display: block;
-}
-
 .nav-links {
     display: flex;
     list-style: none;
@@ -62,22 +51,6 @@ nav {
     font-weight: 500;
 }
 
-.hero {
-    background-image: url('../images/banner.jpg');
-    background-size: cover;
-    background-position: center;
-
-    height: 50vh;       /* 50% of screen height */
-    min-height: 250px;  /* Don't get too small */
-    max-height: 600px;  /* Don't get too large */
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
 img.responsive {
     display: block;
     height:auto;
@@ -88,7 +61,7 @@ img.responsive {
 .btn {
     display: inline-block;
     background: #0cc0df;
-    color: white;
+    color: #545454;
     padding: 12px 24px;
     text-decoration: none;
     font-weight: bold;
@@ -98,7 +71,7 @@ img.responsive {
 }
 
 .btn:hover {
-    background-color: white;
+    background-color: #545454;
     color: #0cc0df;
     transform: translateY(-2px);
 }
