@@ -46,12 +46,23 @@ nav {
 }
 
 .nav-links a {
+    display: inline-block;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
+
+    padding: 12px 20px;
+    background-color: #00A3A3;
+    transition: all 0.3s ease;
 }
 
+nav a:hover {
+    background-color: #008080;
+    transform: translateY(-2px);
+}
+    
+    
 .logo {
     color: white;
     font-family: 'Montserrat', sans-serif;
