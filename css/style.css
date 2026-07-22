@@ -78,11 +78,6 @@ nav {
     text-align: center;
 }
 
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
 img.responsive {
   max-width:100%; 
   height:auto; 
@@ -93,7 +88,6 @@ img.responsive {
     background: white;
     color: #0066cc;
     padding: 12px 24px;
-    border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
     margin-top: 20px;
@@ -101,19 +95,6 @@ img.responsive {
 
 .section {
     padding: 70px 0;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px;
-}
-
-.card {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
 }
 
 footer {
@@ -133,11 +114,6 @@ footer {
 
     .menu-toggle {
         display: block;
-    }
-
-    .hero {
-        height: 35vh;
-        min-height: 200px;
     }
     
     .nav-links {
