@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bristol Youth Voice Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Bristol Youth Voice Network</h1>
+           
+        </div>
+    </header>
+
+    <nav>
+        <div class="navbar">
+            <ul class="responsive-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+   <section id="events" class="container">
+        <h2>Events</h2>
+        <p>The Network organises a small number of meetings, events and learning opportunities throughout the year.  These may include:</p>
+        <ul class="responsive-list">
+                <li>Networking events</li>
+                <li>Guest speakers and presentations</li>
+                <li>Good practice sharing sessions</li>
+                <li>Workshops and training opportunities</li>
+                <li>Discussions on emerging issues affecting children and young people</li>
+                <li>Collaborative planning and partnership development</li>
+            
+            </ul>
+        <p>Participation at events is voluntary and members can choose which activities they would like to attend.</p>
+    </section>
+
+   
+    <footer>
+        <p>&copy; 2026 Bristol Youth Voice Network</p>
+    </footer>
+
+</body>
+</html>
