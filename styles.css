@@ -45,7 +45,8 @@ header p {
 }
 
 .btn:hover {
-    background: #f0f0f0;
+    background: white;
+    color: #003366;
 }
 
 .navbar {
