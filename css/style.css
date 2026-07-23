@@ -21,7 +21,7 @@ li {
 }
 
 .container {
-    width: 95%;
+    width: 90%;
     max-width: 1200px;
     margin: auto;
 }
@@ -42,8 +42,8 @@ nav {
     display: flex;
     align-items: center;
     padding: 1rem 0;
-
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     letter-spacing: 2px;
 }
 
@@ -52,6 +52,7 @@ nav {
     margin-left: auto;
     gap: 10px;
     list-style: none;
+    
 }
 
 .nav-links li {
@@ -62,12 +63,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 120px;
     height: 45px;
-
-    font-family: 'Montserrat', sans-serif;
-
     color: #0cc0df;
     background: #fff;
     text-decoration: none;
