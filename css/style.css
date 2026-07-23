@@ -40,7 +40,7 @@ nav {
 
 .nav-links {
     display: flex;
-    gap: 10px
+    gap: 10px;
     list-style: none;
 }
 
@@ -138,6 +138,7 @@ h2 {
         width: 100%;
         background: #0cc0df;
         color: black;
+        text-align: left;
     }
 
     .nav-links.active {
@@ -150,7 +151,7 @@ h2 {
     }
 
     .nav-links li {
-        text-align: left;
+       
     }
 
     .nav-links a:hover {
