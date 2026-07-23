@@ -31,8 +31,8 @@ background: #0cc0df;
 }
 
 header {
-    background: #0cc0df;
-    color: white;
+    background: white;
+    color: #0cc0df;
     position: sticky;
     top: 0;
     z-index: 100;
