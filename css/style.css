@@ -21,7 +21,7 @@ li {
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: auto;
 }
@@ -40,7 +40,6 @@ header {
 
 nav {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     padding: 1rem 0;
 }
@@ -53,6 +52,7 @@ nav {
 
 .nav-links {
     display: flex;
+    margin-left: auto;
     gap: 10px;
     list-style: none;
 }
