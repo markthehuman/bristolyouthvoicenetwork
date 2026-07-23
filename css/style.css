@@ -42,12 +42,6 @@ nav {
     display: flex;
     align-items: center;
     padding: 1rem 0;
-}
-
-nav-text {
-    
-    height: 45px;
-
     font-weight: 700;
     letter-spacing: 2px;
 }
