@@ -68,7 +68,7 @@ nav {
     color: #0cc0df;
     background: #fff;
     text-decoration: none;
-
+    text-transform: uppercase;
     transition: all 0.3s ease;
 }
 
