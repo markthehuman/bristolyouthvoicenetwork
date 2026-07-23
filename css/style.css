@@ -65,12 +65,11 @@ nav {
 
     width: 120px;
     height: 45px;
-    margin-top: 20px;
 
     font-family: 'Montserrat', sans-serif;
 
     color: #0cc0df;
-    background-color: #fff;
+    background: #fff;
     text-decoration: none;
 
     transition: all 0.3s ease;
