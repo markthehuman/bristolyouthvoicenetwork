@@ -154,6 +154,10 @@ h2 {
        
     }
 
+    a {
+        text-align: left;
+    }    
+    
     .nav-links a:hover {
     background-color: white;
     color: #0cc0df;
