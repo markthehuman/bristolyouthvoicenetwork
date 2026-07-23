@@ -144,15 +144,19 @@ h2 {
 
     .menu-toggle {
         display: block;
-        background:#0cc0df;
+        background: #0cc0df;
     }
-    
+
+    nav {
+        flex-wrap: wrap;
+        background: white;
+        color: #0cc0df;
+    }
+
     .nav-links {
         display: none;
         flex-direction: column;
         width: 100%;
-        background: #0cc0df;
-        color: white;
         text-align: left;
     }
 
@@ -160,21 +164,13 @@ h2 {
         display: flex;
     }
 
-    nav {
-        flex-wrap: wrap;
-        background: #0cc0df;
-    }
-
-    .nav-links li {
-       
-    }
-
-    .nav-links.a {
+    .nav-links a {
         text-align: left;
-    }    
-    
-    .nav-links a:hover {
-    background-color: white;
-    color: #0cc0df;
-    transform: translateY(-2px);
     }
+
+    .nav-links a:hover {
+        background-color: #0cc0df;
+        color: white;
+        transform: translateY(-2px);
+    }
+}
