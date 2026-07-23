@@ -40,6 +40,7 @@ nav {
 
 .nav-links {
     display: flex;
+    gap: 10px
     list-style: none;
 }
 
@@ -137,7 +138,6 @@ h2 {
         width: 100%;
         background: #0cc0df;
         color: black;
-
     }
 
     .nav-links.active {
@@ -150,7 +150,6 @@ h2 {
     }
 
     .nav-links li {
-        margin: 10px 0;
         text-align: left;
     }
 
@@ -158,5 +157,4 @@ h2 {
     background-color: white;
     color: #0cc0df;
     transform: translateY(-2px);
-   
-}
+    }
