@@ -112,7 +112,7 @@ img.responsive {
 }
 
 footer {
-    background: #003366;
+    background: #0cc0df;
     color: white;
     text-align: center;
     padding: 20px;
@@ -121,9 +121,10 @@ footer {
 .menu-toggle {
     display: none;
     font-size: 28px;
+    color: #0cc0df;
     cursor: pointer;
     background: white;
-    color: #003366;
+    
 }
 
 h2 {
@@ -139,20 +140,21 @@ h2 {
     .menu-toggle {
         display: block;
         background: white;
-        color: #003366;
+        color: #0cc0df;
     }
 
     nav {
         flex-wrap: wrap;
         background: white;
         color: #0cc0df;
+        text-align: left;
     }
 
     .nav-links {
         display: none;
         flex-direction: column;
         width: 100%;
-        text-align: left;
+        
     }
 
     .nav-links.active {
