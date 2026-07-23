@@ -176,4 +176,8 @@ h2 {
         color: white;
         transform: translateY(-2px);
     }
+
+    .logo {
+        display: none;
+    }
 }
