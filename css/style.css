@@ -42,14 +42,9 @@ nav {
     display: flex;
     align-items: center;
     padding: 1rem 0;
+
     font-weight: 700;
     letter-spacing: 2px;
-}
-
-.nav-links a:hover {
-    background-color: #0cc0df;
-    color: white;
-    transform: translateY(-2px);
 }
 
 .nav-links {
@@ -60,28 +55,33 @@ nav {
 }
 
 .nav-links li {
-    margin-left: 0px;
+    margin: 0;
 }
 
 .nav-links a {
-    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
 
     width: 120px;
     height: 45px;
-
-    font-weight: 700;
-    letter-spacing: 2px;
-    
-    background: white;
-    color: #0cc0df;
-    text-decoration: none;
-    
-    transition: all 0.3s ease;
     margin-top: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    color: #0cc0df;
+    background-color: #fff;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
 }
+
+.nav-links a:hover {
+    background-color: #0cc0df;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
 
 .logo {
     color: white;
