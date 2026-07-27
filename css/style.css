@@ -63,7 +63,7 @@ nav {
 .nav-links a {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 120px;
     height: 45px;
     color: #0cc0df;
