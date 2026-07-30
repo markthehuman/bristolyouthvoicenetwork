@@ -121,9 +121,9 @@ footer {
 .menu-toggle {
     display: none;
     font-size: 28px;
-    color: #0cc0df;
+    color: black;
     cursor: pointer;
-    background: white;
+    background: #0cc0df;
     
 }
 
