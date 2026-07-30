@@ -121,9 +121,9 @@ footer {
 .menu-toggle {
     display: none;
     font-size: 28px;
-    color: black;
+    color: #0cc0df;
     cursor: pointer;
-    background: #0cc0df;
+    background: White;
     
 }
 
@@ -184,8 +184,8 @@ h2 {
 
     .menu-toggle {
         display: block;
-        background: white;
-        color: #0cc0df;
+        background: #0cc0df;
+        color: black;
         border: none;
         cursor: pointer;
     }
