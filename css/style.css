@@ -180,8 +180,21 @@ h2 {
     max-width: 800px;
 }
 
+.hero-banner {
+    background-image: url('/images/banner 313.');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
 @media (max-width: 768px) {
 
+    .hero-banner {
+        background-image: url('/images/banner-mobile.jpg');
+    }
+    
     .menu-toggle {
         display: block;
         background: #0cc0df;
