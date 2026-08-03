@@ -190,6 +190,9 @@ h2 {
 
     .hero-banner {
         background-image: url('/images/Banner_large.png');
+
+
+background-color: red;
     }
     
     .menu-toggle {
