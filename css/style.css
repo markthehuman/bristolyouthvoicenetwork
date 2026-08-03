@@ -181,18 +181,15 @@ h2 {
 }
 
 .hero-banner {
-    background-image: url('/images/banner 313.');
+    background-image: url('/images/banner 313.webp');
     background-size: cover;
     background-position: center;
 }
 
-
-
-
 @media (max-width: 768px) {
 
     .hero-banner {
-        background-image: url('/images/banner-mobile.jpg');
+        background-image: url('/images/banner_large.jpg');
     }
     
     .menu-toggle {
