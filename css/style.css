@@ -189,8 +189,10 @@ h2 {
 @media (max-width: 768px) {
 
     .hero-banner {
-        background-image: url('/images/Banner_large.png');
+        /* background-image: url('/images/Banner_large.png'); */
 
+
+background-image: none;
 
 background-color: red;
     }
