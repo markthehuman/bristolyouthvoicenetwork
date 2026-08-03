@@ -189,7 +189,7 @@ h2 {
 @media (max-width: 768px) {
 
     .hero-banner {
-        background-image: url('/images/banner_large.jpg');
+        background-image: url('/images/Banner_large.png');
     }
     
     .menu-toggle {
