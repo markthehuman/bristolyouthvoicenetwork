@@ -180,23 +180,10 @@ h2 {
     max-width: 800px;
 }
 
-.hero-banner {
-    height: 400px !important;
-    background-image: url('/images/banner 313.webp');
-    background-size: cover;
-    background-position: center;
-}
 
 @media (max-width: 768px) {
 
-    .hero-banner {
-        /* background-image: url('/images/Banner_large.png'); */
-
-min-height: 400px;
-background-image: none;
-
-background-color: red;
-    }
+    
     
     .menu-toggle {
         display: block;
@@ -209,8 +196,8 @@ background-color: red;
     nav {
         display: flex;
         flex-wrap: wrap;
-        background: white;
-        color: #0cc0df;
+        background: #0cc0df;
+        color: black;
     }
 
     .logo {
@@ -241,14 +228,15 @@ background-color: red;
         width: 100%;
         padding: 12px 20px;
         text-align: left;
-        color: #0cc0df;
+        color: black;
+        background: #0cc0df;
         text-decoration: none;
         box-sizing: border-box;
     }
 
     .nav-links a:hover {
         background-color: #0cc0df;
-        color: white;
+        color: black;
         transform: translateY(-2px);
     }
 
