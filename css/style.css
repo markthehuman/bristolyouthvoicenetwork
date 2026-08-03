@@ -181,6 +181,7 @@ h2 {
 }
 
 .hero-banner {
+    height: 400px !important;
     background-image: url('/images/banner 313.webp');
     background-size: cover;
     background-position: center;
@@ -191,7 +192,7 @@ h2 {
     .hero-banner {
         /* background-image: url('/images/Banner_large.png'); */
 
-
+min-height: 400px;
 background-image: none;
 
 background-color: red;
